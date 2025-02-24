@@ -7,12 +7,14 @@ CSS Flex:-
 
 CSS Flex Properties:-
 **********************
-1) display-flex: It is used to convert block level elements to the in-line elements.
+1) display-flex: 
+-It is used to convert block level elements to the in-line elements.
 
-2) gap:- It is used to maintain space between htm elements.
+2) gap:- 
+-It is used to maintain space between htm elements.
 ex: gap:20px
 
-3)justify-content:flex-start/flex-end/center/space-between/space-around/space-evenly
+3)justify-content: flex-start/flex-end/center/space-between/space-around/space-evenly
 -It is used to move the html elements in horizontal(main-axis) direction
 -default value is flex-start.
 
@@ -21,6 +23,27 @@ ex: gap:20px
 -default value is stretch.
 -to work with align-items height property is mandatory.
 
-5)flex-direction:row/row-reverse/column/column-reverse
+5)flex-direction: row/row-reverse/column/column-reverse
 -It is used to change the direction of html elements
 -default value is row
+
+6)order: 
+-It is used to change the order of html elements
+-default value is zero
+ex: order:1;
+
+7)flex-wrap: wrap/nowrap/wrap-reverse
+-It is used to wrap the html elements
+-default value is nowrap
+
+8) flex-basis: 
+-It is used to specify width to the html elements
+ex: flex-basis:30%;
+
+9)flex-grow:
+-It is used to specify grow/expand proportion to a particular element.
+ex: flex-grow:2;
+
+10)flex-shrink:
+-It is used to specify collapse/compression proportion to a particular item.
+ex: flex-shrink:2;
